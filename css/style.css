@@ -1,0 +1,61 @@
+/* the design & style for the web pages*/
+.container {
+    height: 280px;
+    position: relative;
+    border: 3px solid gray;
+}
+
+.forward {
+    top: 25%;
+    right:50%
+}
+.backword {
+    top: 75%;
+    right:50%;
+}
+
+.stop {
+    top: 50%;
+    right:50%
+
+}
+.right {
+    top: 50%;
+    right:40%
+}
+
+.left {
+    top: 50%;
+    right:60%;
+}
+.btn
+{
+    position: absolute;
+    border-radius:20px;
+    width:110px;
+    height:40px;
+    transition: all ease 0.5s;
+}
+.btn:hover
+{
+    color: white;
+    transition: all ease-out 1000ms;
+    background: #808080;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    background: #424242;
+    padding: 15px;
+    border-radius: 10px;
+}
+.text > .direction
+{
+   color: red;
+    font-size: 20px;
+}
